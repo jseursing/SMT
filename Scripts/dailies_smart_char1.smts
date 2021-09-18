@@ -1,0 +1,24 @@
+// Lines that start with "//" are ignored (known as comments)
+// This script will login to the first character
+// collect guild attendance, perform all three dungeons 3x
+// and one chaos daily dungeon, collect achievements, 
+// collect mail, perform all three dungeons 2x and logout.
+// In addition, this script will change between character
+// presets where the second preset is meant for mobbing
+// (elite/daily dungeon) and preset 3 (mulung)
+loginchar(1)
+guildattendance()
+changepreset(2)
+elitedungeon(3)
+dailydungeon(hell,3)
+chaosdailydungeon(1)
+changepreset(3)
+mulung(3)
+achievements(consume,item,forge,hunt,daily,elite,ml)
+collectmail(default,personal)
+changepreset(2)
+elitedungeon(2)
+dailydungeon(hell,2)
+changepreset(3)
+mulung(2)
+logout()

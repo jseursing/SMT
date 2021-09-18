@@ -1,0 +1,17 @@
+// Lines that start with "//" are ignored (known as comments)
+// This script will login to the first character
+// collect guild attendance, perform all three dungeons 3x
+// and one chaos daily dungeon, collect achievements, 
+// collect mail, perform all three dungeons 2x and logout.
+loginchar(1)
+guildattendance()
+elitedungeon(3)
+mulung(3)
+dailydungeon(hell,3)
+chaosdailydungeon(1)
+achievements(consume,item,hunt,daily,elite,ml)
+collectmail(default,personal)
+elitedungeon(2)
+mulung(2)
+dailydungeon(hell,2)
+logout()

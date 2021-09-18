@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/SMT">
+        <file>Resources/Search-icon.png</file>
+        <file>Resources/Status-icon.png</file>
+        <file>Resources/save-icon.png</file>
+        <file>Resources/script-icon.png</file>
+        <file>Resources/Utilities-icon.png</file>
+        <file>Resources/zzz-icon.png</file>
+        <file>Resources/record-icon.png</file>
+    </qresource>
+</RCC>
